@@ -1,0 +1,12 @@
+Subarna Express,Chittagong,7:00,a.m.,Dhaka,12:10,p.m.,100,200,500,101
+Subarna Express,Dhaka,3:00,p.m.,Chittagong,8:10,p.m.,100,200,500,102
+Mohanagar Godhuli,Chittagong,3:00,p.m.,Dhaka,9:10,p.m.,100,200,500,103
+Ekota Express,Dhaka,10:00,p.m.,Dinajpur,6:50,a.m.,100,200,500,104
+Tista Express,Dhaka,7:30,a.m.,Dewangong,12:40,p.m.,100,200,500,105
+Tista Express,Dewangong,3:00,p.m.,Dhaka,8:00,p.m.,100,200,500,106
+Parabat Express,Dhaka,6:35,a.m.,Sylhet,1:20,p.m.,100,200,500,107
+Parabat Express,Sylhet,3:00,p.m.,Dhaka,9:55,p.m.,100,200,500,108
+Upukul Express,Noakhali,6:00,a.m.,Dhaka,11:50,a.m.,100,200,500,109
+Upukul Express,Dhaka,3:20,p.m.,Noakhali,9:20,p.m.,100,200,500,110
+Joyontika Express,Dhaka,12:00,p.m.,Sylhet,7:40,p.m.,100,200,500,111
+Joyontika Express,Sylhet,8:40,a.m.,Dhaka,4:00,p.m.,200,200,500,112
