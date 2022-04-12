@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="574.0" prefWidth="1030.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AboutController">
+    <children>
+        <AnchorPane prefHeight="574.0" prefWidth="286.0" style="-fx-background-color: #1D2026;">
+            <children>
+                <Pane prefHeight="150.0" prefWidth="296.0" style="-fx-background-color: #1D2026;">
+                    <children>
+                        <Label layoutX="30.0" layoutY="21.0" text="My Account" textFill="WHITE">
+                            <font>
+                                <Font name="Cambria Bold" size="30.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="19.0" fitWidth="15.0" layoutX="30.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../onlinecopy.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="54.0" layoutY="72.0" text="Online" textFill="#fffdfd">
+                            <font>
+                                <Font name="System Italic" size="17.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <Button fx:id="BookingButton" layoutX="44.0" layoutY="169.0" mnemonicParsing="false" onAction="#BookingPress" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: #2b2a39;" text="Booking" textAlignment="RIGHT" textFill="WHITE" />
+                <Button fx:id="HistoryButton" layoutX="44.0" layoutY="246.0" mnemonicParsing="false" onAction="#HistoryPress" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: #2b2a39;" text="History" textAlignment="RIGHT" textFill="WHITE" />
+                <Button fx:id="AboutButton" layoutX="44.0" layoutY="318.0" mnemonicParsing="false" onAction="#AboutPress" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: #2b2a39;" text="Credits" textAlignment="RIGHT" textFill="WHITE" />
+                <Button fx:id="ExitButton" layoutX="44.0" layoutY="489.0" mnemonicParsing="false" onAction="#ExitPress" prefHeight="31.0" prefWidth="144.0" style="-fx-background-color: #2b2a39;" text="Exit" textAlignment="RIGHT" textFill="WHITE" />
+                <ImageView fitHeight="38.0" fitWidth="31.0" layoutX="52.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Booking.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="26.0" fitWidth="31.0" layoutX="52.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../history.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="52.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../About.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="38.0" fitWidth="31.0" layoutX="52.0" layoutY="489.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Exit.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="SettingsButton" layoutX="44.0" layoutY="387.0" mnemonicParsing="false" onAction="#SettingsPress" prefHeight="31.0" prefWidth="176.0" style="-fx-background-color: #2b2a39;" text="Settings" textAlignment="RIGHT" textFill="WHITE" />
+                <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="55.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Settings.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="295.0" prefHeight="574.0" prefWidth="749.0">
+            <children>
+                <Pane layoutY="65.0" prefHeight="117.0" prefWidth="749.0" style="-fx-background-color: #300150;">
+                    <children>
+                        <ImageView fitHeight="172.0" fitWidth="187.0" layoutX="14.0" layoutY="-46.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../About.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="201.0" layoutY="32.0" text="Credits" textFill="WHITE">
+                            <font>
+                                <Font name="Cambria Bold" size="30.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <Label layoutX="72.0" layoutY="219.0" prefHeight="45.0" prefWidth="198.0" text="Project Name:" textFill="#0a0a0a">
+                    <font>
+                        <Font name="Cambria Bold" size="30.0" />
+                    </font>
+                </Label>
+                <Label layoutX="282.0" layoutY="219.0" prefHeight="45.0" prefWidth="373.0" text="Ticket Reservation System" textFill="#0a0a0a">
+                    <font>
+                        <Font name="Cambria Bold" size="30.0" />
+                    </font>
+                </Label>
+                <Label layoutX="72.0" layoutY="278.0" prefHeight="45.0" prefWidth="271.0" text="Project Supervisor:" textFill="#0a0a0a">
+                    <font>
+                        <Font name="Cambria Bold" size="30.0" />
+                    </font>
+                </Label>
+                <Label layoutX="367.0" layoutY="278.0" prefHeight="45.0" prefWidth="224.0" text="Sukarna Barua" textFill="#0a0a0a">
+                    <font>
+                        <Font name="Cambria Bold" size="30.0" />
+                    </font>
+                </Label>
+            <Label layoutX="77.0" layoutY="403.0" prefHeight="45.0" prefWidth="271.0" text="Ishraq R. Rahman" textFill="#0a0a0a">
+               <font>
+                  <Font name="Cambria Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="372.0" layoutY="403.0" prefHeight="45.0" prefWidth="224.0" text="1605101" textFill="#0a0a0a">
+               <font>
+                  <Font name="Cambria Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="77.0" layoutY="458.0" prefHeight="45.0" prefWidth="271.0" text="Fazle Rafsani" textFill="#0a0a0a">
+               <font>
+                  <Font name="Cambria Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="372.0" layoutY="458.0" prefHeight="45.0" prefWidth="224.0" text="1605119" textFill="#0a0a0a">
+               <font>
+                  <Font name="Cambria Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="77.0" layoutY="358.0" prefHeight="45.0" prefWidth="170.0" text="Created By:" textFill="#0a0a0a">
+               <font>
+                  <Font name="Cambria Bold" size="24.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,4 @@
+
+Subarna Express,Chittagong,7:00,a.m.,Dhaka,12:10,p.m.,100,300,500
+Subarna Express,Dhaka,3:00,p.m.,Chittagong,8:10,p.m.,100,300,500
+Mohanagar Godhuli,Chittagong,3:00,p.m.,Dhaka,9:10,p.m.,150,300,500
